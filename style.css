@@ -1,0 +1,15 @@
+:root{
+    --dark-blue: #313041;
+    --maintheme:#E8604C;
+}
+
+/* TOPBAR  */
+.topbar{
+    background-color: var(--dark-blue);
+}
+.topbar span {
+    color: var(--maintheme);
+}
+.topbar-btn {
+    background-color: var(--maintheme);
+}
