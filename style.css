@@ -1,32 +1,43 @@
-:root{
-    --dark-blue: #313041;
-    --maintheme:#E8604C;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+:root {
+  --dark-blue: #313041;
+  --maintheme: #e8604c;
 }
-body{
-    box-sizing: border-box;
+body {
+  box-sizing: border-box;
 }
 /* TOPBAR  */
-.topbar{
-    background-color: var(--dark-blue);
+.topbar {
+  background-color: var(--dark-blue);
 }
 .topbar span {
-    color: var(--maintheme);
+  color: var(--maintheme);
 }
 .topbar-btn {
-    background-color: var(--maintheme);
-    color: white;
+  background-color: var(--maintheme);
+  color: white;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 1;
 }
-.topbar-btn:hover{
-    background-color: white;
-    color: black;
+.topbar-btn:hover {
+  color: black;
+  box-shadow: inset 0 3.5em 0 0 white;
 }
 
 /* NAVBAR  */
- .nav-links:hover{ 
-text-decoration: underline 4px solid var(--maintheme);
-} 
+.nav-links:hover {
+  text-decoration: underline 4px solid var(--maintheme);
+}
 
-.nav-btn:hover{
-background-color: var(--maintheme);
-border-color: black;
+.nav-btn:hover {
+  background-color: var(--maintheme);
+  border-color: black;
+}
+/* HERO SECTION  */
+.hero-text{
+}
+.hero-text h1 {
+  font-family: "Dancing Script";
+  /* color: var(--maintheme); */
 }

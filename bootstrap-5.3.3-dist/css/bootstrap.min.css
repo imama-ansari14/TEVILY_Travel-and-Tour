@@ -11703,7 +11703,7 @@ fieldset:disabled .btn {
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 6.0rem !important;
+    font-size: 6rem !important;
   }
   .fs-2 {
     font-size: 2rem !important;
