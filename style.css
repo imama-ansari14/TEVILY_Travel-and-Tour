@@ -14,6 +14,7 @@ body{
 }
 .topbar-btn {
     background-color: var(--maintheme);
+    color: white;
 }
 .topbar-btn:hover{
     background-color: white;
@@ -22,9 +23,7 @@ body{
 
 /* NAVBAR  */
  .nav-links:hover{ 
-text-decoration: underline;
-text-decoration-thickness: 4px;
-text-decoration-color: var(--maintheme);
+text-decoration: underline 4px solid var(--maintheme);
 } 
 
 .nav-btn:hover{
