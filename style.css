@@ -63,6 +63,9 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
+.f p{
+  color: white;
+}
 .footer a {
   color: #fff;
   text-decoration: none;
@@ -75,9 +78,17 @@ body {
   margin-right: 10px;
 }
 .subscribe-box {
-  background-color: #2c2b3e;
+  background-color: #292837;
   border-radius: 5px;
   padding: 10px;
+}
+.subscribe-box input{
+  background-color: #292837;
+  border: none;
+  text-align: center; 
+}
+.subscribe-box input::placeholder{
+  color: white;
 }
 .subscribe-btn {
   background-color: #e45d4c;
