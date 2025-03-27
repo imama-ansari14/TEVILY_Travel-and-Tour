@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Go Exotic Places</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .destination-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            height: 250px; /* Fixed height for consistency */
+        }
+        .destination-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .destination-text {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .destination-tag {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: red;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        /* Adjust height for larger images */
+        .large-card {
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container text-center my-5">
+    <h6 class="text-danger">Destination Lists</h6>
+    <h2 class="fw-bold">Go Exotic Places</h2>
+
+    <div class="row g-3 mt-4 p-5 ">
+        <!-- Spain -->
+        <div class="col-md-4">
+            <div class="destination-card">
+                <img src="images/places1.png" alt="Spain">
+                <div class="destination-text">Spain</div>
+            </div>
+        </div>
+
+        <!-- Thailand (smaller but aligned) -->
+        <div class="col-md-4">
+            <div class="destination-card">
+                <img src="images/places2.png" alt="Thailand">
+                <div class="destination-tag">Wildlife</div>
+                <div class="destination-text">Thailand</div>
+            </div>
+        </div>
+
+        <!-- Africa -->
+        <div class="col-md-4">
+            <div class="destination-card">
+                <img src="images/places3.png" alt="Africa">
+                <div class="destination-text">Africa</div>
+            </div>
+        </div>
+
+        <!-- Australia (bigger) -->
+        <div class="col-md-6">
+            <div class="destination-card large-card">
+                <img src="images/places4.png" alt="Australia">
+                <div class="destination-text">Australia</div>
+            </div>
+        </div>
+
+        <!-- Switzerland (bigger) -->
+        <div class="col-md-6">
+            <div class="destination-card large-card">
+                <img src="images/places5.png" alt="Switzerland">
+                <div class="destination-tag">Adventure</div>
+                <div class="destination-text">Switzerland</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+

@@ -26,7 +26,8 @@ body {
 }
 
 /* NAVBAR  */
-.nav-links:hover {
+.navs:hover {
+  animation: tada 1s;
   text-decoration: underline 4px solid var(--maintheme);
 }
 
@@ -42,28 +43,69 @@ body {
 .hero-card {
   left: 15%;
 }
-.h-card {
+
+.h-cardtwo {
   background-color: var(--maintheme);
   color: white;
   overflow: hidden;
   transition: 0.7s;
   z-index: 1;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-.h-card:hover {
+.h-cardtwo:hover {
   color: white;
   background-color: black;
 }
 
+/* DESTINATION PLACES */
+.des-head{
+  font-family: "Dancing Script";
+  color: var(--maintheme);
+}
+.destination-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 250px;  
+}
+.destination-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.destination-text {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.destination-tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  /* color: red; */
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* Adjust height for larger images */
+.large-card {
+  height: 300px;
+}
+
 /* FOOTER */
 .footer {
-  background-color:var(--dark-blue) ;
+  background-color: var(--dark-blue);
   padding: 50px 0;
 }
 .footer-logo {
   font-size: 24px;
   font-weight: bold;
 }
-.f p{
+.f p {
   color: white;
 }
 .footer a {
@@ -72,6 +114,7 @@ body {
 }
 .footer a:hover {
   text-decoration: 3px #e45d4c underline;
+  /* animation: shakeX 1s; */
 }
 .footer .icon {
   color: #f05d48;
@@ -82,12 +125,12 @@ body {
   border-radius: 5px;
   padding: 10px;
 }
-.subscribe-box input{
+.subscribe-box input {
   background-color: #292837;
   border: none;
-  text-align: center; 
+  text-align: center;
 }
-.subscribe-box input::placeholder{
+.subscribe-box input::placeholder {
   color: white;
 }
 .subscribe-btn {
@@ -100,5 +143,5 @@ body {
   font-weight: bold;
 }
 .subscribe-btn:hover {
-  background-color: #d44c3c;
+  background-color: #b83a2c;
 }

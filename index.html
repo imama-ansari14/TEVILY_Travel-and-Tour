@@ -40,7 +40,7 @@
   </div>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-white position-sticky top-0 border border-secondary">
+  <nav class="navbar navbar-expand-lg bg-white position-sticky top-0 border border-secondary z-3">
     <div class="container ">
       <a class="navbar-brand fw-bold" href="index.html">
         <img src="images/brand-logo.png" alt="Logo" />
@@ -51,19 +51,19 @@
       <div class="collapse navbar-collapse justify-content-around fs-4" id="navbarNav">
         <ul class="navbar-nav fw-semibold gap-lg-5 gap-md-3 text-center">
           <li class="nav-links nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="navs nav-link active" href="index.html">Home</a>
           </li>
           <li class="nav-links nav-item ">
-            <a class="nav-link active" href="destination.html">Destinations</a>
+            <a class="navs nav-link active" href="destination.html">Destinations</a>
           </li>
           <li class="nav-links nav-item">
-            <a class="nav-link active" href="tour.html">Tours</a>
+            <a class="navs nav-link active" href="tour.html">Tours</a>
           </li>
           <li class="nav-links nav-item">
-            <a class="nav-link active" href="about.html">About</a>
+            <a class="navs nav-link active" href="about.html">About</a>
           </li>
           <li class="nav-links nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
+            <a class="navs nav-link active" href="contact.html">Contact</a>
           </li>
         </ul>
 
@@ -135,7 +135,7 @@
     <div class="row g-0">
       <!-- card 1 -->
       <div class="col-sm-3">
-        <div class="card rounded-0">
+        <div class="h-cardone card rounded-0">
           <div class="card-body ">
             <p class="card-text">Where to</p>
             <h5 class="card-title">Enter Keywords</h5>
@@ -162,14 +162,64 @@
       </div>
       <!-- card 4 -->
       <div class="col-sm-3">
-        <div class="h-card card h-100 rounded-0">
-          <a href="#"
+        <div class="h-cardtwo card h-100 rounded-0">
+          <a href="contact.html"
             class="card-body btn text-light d-flex justify-content-center align-items-center fw-semibold fs-3">Find
             Now</a>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- DESTINATION PLACES-->
+  <div class="container text-center my-5">
+      <h6 class="des-head fs-4">Destination Lists</h6>
+      <h2 class="fw-bold">Go Exotic Places</h2>
+
+      <div class="row g-3 py-3 px-5 ">
+        <!-- Spain -->
+        <div class="col-md-4">
+          <div class="destination-card">
+            <img src="images/places1.png" alt="Spain">
+            <div class="destination-text">Spain</div>
+          </div>
+        </div>
+
+        <!-- Thailand -->
+        <div class="col-md-4">
+          <div class="destination-card">
+            <img src="images/places2.png" alt="Thailand">
+            <div class="des-head fs-3 destination-tag">Wildlife</div>
+            <div class="destination-text">Thailand</div>
+          </div>
+        </div>
+
+        <!-- Africa -->
+        <div class="col-md-4">
+          <div class="destination-card">
+            <img src="images/places3.png" alt="Africa">
+            <div class="destination-text">Africa</div>
+          </div>
+        </div>
+
+        <!-- Australia (bigger) -->
+        <div class="col-md-6">
+          <div class="destination-card large-card">
+            <img src="images/places4.png" alt="Australia">
+            <div class="destination-text">Australia</div>
+          </div>
+        </div>
+
+        <!-- Switzerland (bigger) -->
+        <div class="col-md-6">
+          <div class="destination-card large-card">
+            <img src="images/places5.png" alt="Switzerland">
+            <div class="des-head fs-3 destination-tag">Adventure</div>
+            <div class="destination-text">Switzerland</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -188,14 +238,14 @@
           <p><a href="about.html">About Us</a></p>
           <p><a href="#">Community Blog</a></p>
           <p><a href="#">Rewards</a></p>
-          <p><a href="#">Work with Us</a></p>
+          <p><a href="contact.html">Work with Us</a></p>
           <p><a href="#">Meet the Team</a></p>
         </div>
         <div class="col-md-3">
           <h5 class="text-white">Explore</h5>
           <p><a href="#">Account</a></p>
           <p><a href="#">Legal</a></p>
-          <p><a href="#">Contact</a></p>
+          <p><a href="contact.html">Contact</a></p>
           <p><a href="#">Affiliate Program</a></p>
           <p><a href="#">Privacy Policy</a></p>
         </div>
