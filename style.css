@@ -63,6 +63,10 @@ body {
   font-family: "Dancing Script";
   color: var(--maintheme);
 }
+.des-eff:hover{
+  
+}
+
 .destination-card {
   position: relative;
   overflow: hidden;
@@ -87,11 +91,10 @@ body {
   position: absolute;
   top: 15px;
   left: 15px;
-  /* color: red; */
   font-size: 1rem;
   font-weight: bold;
 }
-/* Adjust height for larger images */
+
 .large-card {
   height: 300px;
 }
@@ -99,6 +102,9 @@ body {
 /* FOOTER */
 .footer {
   background-color: var(--dark-blue);
+  /* background-image: url(https://tevily-nextjs.vercel.app/_next/static/media/main-slider-1-1.62fecf08.jpg);
+  background-size: cover; */
+
   padding: 50px 0;
 }
 .footer-logo {
@@ -114,7 +120,7 @@ body {
 }
 .footer a:hover {
   text-decoration: 3px #e45d4c underline;
-  /* animation: shakeX 1s; */
+  
 }
 .footer .icon {
   color: #f05d48;
