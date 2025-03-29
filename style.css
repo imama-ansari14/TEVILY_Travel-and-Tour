@@ -158,6 +158,9 @@ body {
   background-color: #f8f9fa;
   padding: 50px 0;
 }
+.abt-img:hover{
+animation: pulse 1s; 
+}
 .bg-var{
   background-color: var(--maintheme);
 }
