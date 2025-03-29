@@ -158,7 +158,9 @@ body {
   background-color: #f8f9fa;
   padding: 50px 0;
 }
-
+.bg-var{
+  background-color: var(--maintheme);
+}
 .highlight {
   color: var(--maintheme);
   
