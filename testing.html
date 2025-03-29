@@ -1,96 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Go Exotic Places</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Tevily</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .destination-card {
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px;
-            height: 250px; /* Fixed height for consistency */
+        .about-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
         }
-        .destination-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-        .destination-text {
-            position: absolute;
-            bottom: 15px;
-            left: 15px;
-            color: white;
-            font-size: 1.5rem;
+
+        .highlight {
+            color: #e74c3c;
             font-weight: bold;
-        }
-        .destination-tag {
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            color: red;
-            font-size: 1rem;
-            font-weight: bold;
-        }
-        /* Adjust height for larger images */
-        .large-card {
-            height: 300px;
         }
     </style>
 </head>
+
 <body>
+    <section class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/about2.jpg" alt="About Us" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p class="text-danger fw-bold">Learn about us</p>
+                    <h2 class="fw-bold">Dare to Explore with <br> Tevily Agency</h2>
+                    <p class="highlight">A Simply Perfect Place to Get Lost</p>
+                    <p class="text-muted">We are trusted by our clients and have a reputation for the best services in
+                        the field. Lorem ipsum is simply free text dolor sit amet consectetur adipiscing elit.</p>
 
-<div class="container text-center my-5">
-    <h6 class="text-danger">Destination Lists</h6>
-    <h2 class="fw-bold">Go Exotic Places</h2>
+                    <div class="mb-3">
+                        <p class="mb-1 fw-bold">Best Services</p>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 77%;"
+                                aria-valuenow="77" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
 
-    <div class="row g-3 mt-4 p-5 ">
-        <!-- Spain -->
-        <div class="col-md-4">
-            <div class="destination-card">
-                <img src="images/places1.png" alt="Spain">
-                <div class="destination-text">Spain</div>
+                    <div>
+                        <p class="mb-1 fw-bold">Tour Agents <span class="float-end">38%</span></p>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 38%;"
+                                aria-valuenow="38" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- Thailand (smaller but aligned) -->
-        <div class="col-md-4">
-            <div class="destination-card">
-                <img src="images/places2.png" alt="Thailand">
-                <div class="destination-tag">Wildlife</div>
-                <div class="destination-text">Thailand</div>
-            </div>
-        </div>
-
-        <!-- Africa -->
-        <div class="col-md-4">
-            <div class="destination-card">
-                <img src="images/places3.png" alt="Africa">
-                <div class="destination-text">Africa</div>
-            </div>
-        </div>
-
-        <!-- Australia (bigger) -->
-        <div class="col-md-6">
-            <div class="destination-card large-card">
-                <img src="images/places4.png" alt="Australia">
-                <div class="destination-text">Australia</div>
-            </div>
-        </div>
-
-        <!-- Switzerland (bigger) -->
-        <div class="col-md-6">
-            <div class="destination-card large-card">
-                <img src="images/places5.png" alt="Switzerland">
-                <div class="destination-tag">Adventure</div>
-                <div class="destination-text">Switzerland</div>
-            </div>
-        </div>
-    </div>
-</div>
-
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
 
+</html>

@@ -151,3 +151,19 @@ body {
 .subscribe-btn:hover {
   background-color: #b83a2c;
 }
+
+
+/* .............ABOUT SECTION  */
+.about-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.highlight {
+  color: var(--maintheme);
+  
+}
+.ab-p{
+  color: var(--maintheme);
+  font-family: Dancing Script;
+}
