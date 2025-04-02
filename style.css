@@ -175,19 +175,6 @@ animation: pulse 1s;
 }
 
 /*  PROFFESIONAL PEOPLE SECTION  */
-/* .ab-ani:hover{
-  animation: jackInTheBox 1s;
-  
-} */
-.team-member {
-  transition: transform 0.3s ease-in-out;
-}
-
-.team-member:hover {
-  transform: scale(1.05); /* Slight zoom for better effect */
-  animation: jackInTheBox 1s; /* Apply animation only once */
-}
-
 .team-section {
   text-align: center;
   padding: 60px 0;
@@ -198,12 +185,20 @@ animation: pulse 1s;
   font-size: 30px;
   font-weight: bold;
 }
-
+.team-member {
+  transition: transform 0.3s ease-in-out;
+}
+.team-member:hover {
+  transform: scale(1.05);
+}
 .team-member img {
   width: 100%;
   border-radius: 10px;
+  animation-duration: 1s;
 }
-
+.team-member:hover img {
+  animation-name: jackInTheBox; 
+}
 .team-member h5 {
   margin-top: 15px;
   font-weight: bold;
