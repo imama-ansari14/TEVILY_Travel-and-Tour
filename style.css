@@ -59,19 +59,18 @@ body {
 }
 
 /* DESTINATION PLACES */
-.des-head{
+.des-head {
   font-family: "Dancing Script";
   color: var(--maintheme);
 }
-.des-eff:hover{
-  
+.des-eff:hover {
 }
 
 .destination-card {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  height: 250px;  
+  height: 250px;
 }
 .destination-card img {
   width: 100%;
@@ -120,7 +119,6 @@ body {
 }
 .footer a:hover {
   text-decoration: 3px #e45d4c underline;
-  
 }
 .footer .icon {
   color: #f05d48;
@@ -152,26 +150,59 @@ body {
   background-color: #b83a2c;
 }
 
-
 /* .............ABOUT SECTION  */
- /* ABOUT HERO SECTION  */
+/* BANNER AND BREADCRUMB  */
+.banner {
+  background: url("images/about-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.banner h1 {
+  z-index: 1;
+  font-weight: bold;
+  font-family: dancing script;
+}
+.breadcrumb-container {
+  padding: 15px;
+  font-size: 14px;
+}
+.breadcrumb-container a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ABOUT HERO SECTION  */
 .about-section {
   background-color: #f8f9fa;
   padding: 50px 0;
 }
-.abt-img:hover{
-animation: pulse 1s; 
+.abt-img:hover {
+  animation: pulse 1s;
 }
-.bg-var{
+.bg-var {
   background-color: var(--maintheme);
 }
 .highlight {
   color: var(--maintheme);
-  
 }
-.ab-p{
+.ab-p {
   color: var(--maintheme);
-  font-family: Dancing Script;
+  font-family: "Dancing Script";
 }
 
 /*  PROFFESIONAL PEOPLE SECTION  */
@@ -197,7 +228,7 @@ animation: pulse 1s;
   animation-duration: 1s;
 }
 .team-member:hover img {
-  animation-name: jackInTheBox; 
+  animation-name: jackInTheBox;
 }
 .team-member h5 {
   margin-top: 15px;
@@ -207,4 +238,5 @@ animation: pulse 1s;
 .team-member span {
   color: #e74c3c;
   font-size: 14px;
+  font-family: cursive;
 }
