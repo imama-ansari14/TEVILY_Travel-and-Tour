@@ -4,54 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Tevily</title>
+    <title>Meet the Team</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .about-section {
+        .team-section {
+            text-align: center;
+            padding: 60px 0;
             background-color: #f8f9fa;
-            padding: 50px 0;
         }
 
-        .highlight {
-            color: #e74c3c;
+        .team-title {
+            font-size: 36px;
             font-weight: bold;
+        }
+
+        .team-member img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .team-member h5 {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .team-member span {
+            color: #e74c3c;
+            font-size: 14px;
         }
     </style>
 </head>
 
 <body>
-    <section class="about-section">
+    <section class="team-section">
+        <p class="text-danger">Professional People</p>
+        <h2 class="team-title">Meet the Team</h2>
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <img src="images/about2.jpg" alt="About Us" class="img-fluid rounded">
-                </div>
-                <div class="col-md-6">
-                    <p class="text-danger fw-bold">Learn about us</p>
-                    <h2 class="fw-bold">Dare to Explore with <br> Tevily Agency</h2>
-                    <p class="highlight">A Simply Perfect Place to Get Lost</p>
-                    <p class="text-muted">We are trusted by our clients and have a reputation for the best services in
-                        the field. Lorem ipsum is simply free text dolor sit amet consectetur adipiscing elit.</p>
-
-                    <div class="mb-3">
-                        <p class="mb-1 fw-bold">Best Services</p>
-                        <div class="progress" style="height: 8px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 77%;"
-                                aria-valuenow="77" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="team-member">
+                        <img src="images/consultatnt1.jpg" alt="Jessica Brown">
+                        <h5>Jessica Brown</h5>
+                        <span>CONSULTANT</span>
                     </div>
-
-                    <div>
-                        <p class="mb-1 fw-bold">Tour Agents <span class="float-end">38%</span></p>
-                        <div class="progress" style="height: 8px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 38%;"
-                                aria-valuenow="38" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="team-member">
+                        <img src="images/consultant2.jpg" alt="Mike Hardson">
+                        <h5>Mike Hardson</h5>
+                        <span>CONSULTANT</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="team-member">
+                        <img src="images/consultant3.jpg" alt="Sarah Albert">
+                        <h5>Sarah Albert</h5>
+                        <span>CONSULTANT</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="team-member">
+                        <img src="images/consultant4.jpg" alt="Kevin Smith">
+                        <h5>Kevin Smith</h5>
+                        <span>CONSULTANT</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
