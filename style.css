@@ -64,6 +64,7 @@ body {
   color: var(--maintheme);
 }
 .des-eff:hover {
+  animation :pulse 0.6s
 }
 
 .destination-card {
