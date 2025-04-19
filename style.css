@@ -153,7 +153,7 @@ body {
 
 /* .............ABOUT SECTION  */
 /* BANNER AND BREADCRUMB  */
-.banner {
+.ab-banner {
   background: url("images/about-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 300px;
@@ -164,16 +164,16 @@ body {
   text-align: center;
   position: relative;
 }
-.banner::after {
+.ab-banner::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
 }
-.banner h1 {
+.ab-banner h1 {
   z-index: 1;
   font-weight: bold;
   font-family: dancing script;
@@ -240,4 +240,31 @@ body {
   color: #e74c3c;
   font-size: 14px;
   font-family: cursive;
+}
+
+/* ...........CONTACT */
+.con-banner {
+  background: url("images/about-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.con-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.con-banner h1 {
+  z-index: 1;
+  font-weight: bold;
+  font-family: dancing script;
 }
