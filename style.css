@@ -285,8 +285,8 @@ body {
 }
 .con-socials span:hover {
   background-color: var(--maintheme);
-}
-.con-right-sec {
+  transform: scale(1.2);
+  color: white;
 }
 .con-right-sec button {
   background-color: var(--maintheme);
@@ -305,6 +305,5 @@ body {
   background-color: #fff0ee;
 }
 .con-cards:hover {
-  /* animation: tada 1s; */
-  animation-fill-mode: both;
+  animation: bounce 1s;
 }
