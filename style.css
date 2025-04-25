@@ -492,6 +492,7 @@ color:var(--dark-blue)!important ;
 /* DESTINATION HERO SECTION  */
 .des-hero-buttons{
   background-color: var(--baby-pink);
+  cursor: pointer;
 }
 .des-hero-buttons:hover{
 animation: pulse 1s;
