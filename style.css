@@ -490,6 +490,10 @@ color:var(--dark-blue)!important ;
   color: black;
 }
 /* DESTINATION HERO SECTION  */
+.hero-head{
+  color: var(--dark-blue);
+  text-decoration: underline 5px var(--maintheme);
+}
 .des-hero-buttons{
   background-color: var(--baby-pink);
   cursor: pointer;
