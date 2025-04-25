@@ -2,6 +2,7 @@
 :root {
   --dark-blue: #313041;
   --maintheme: #e8604c;
+  --baby-pink:#fbdbd6;
 }
 body {
   box-sizing: border-box;
@@ -427,7 +428,7 @@ color:var(--dark-blue)!important ;
   font-weight: bold;
 }
 .con-socials span {
-  background-color: #fbdbd6;
+  background-color: var(--baby-pink);
 }
 .con-socials span:hover {
   background-color: var(--maintheme);
@@ -489,4 +490,18 @@ color:var(--dark-blue)!important ;
   color: black;
 }
 /* DESTINATION HERO SECTION  */
-.i{background-color: var(--maintheme);}
+.des-hero-buttons{
+  background-color: var(--baby-pink);
+}
+.des-hero-buttons:hover{
+animation: pulse 1s;
+} 
+.blue-icon{
+  color: #283363;
+}
+.yellow-icon{
+  color: #977A00;
+}
+.red-icon{
+  color: red;
+}
