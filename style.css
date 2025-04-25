@@ -205,10 +205,15 @@ body {
   color: var(--maintheme);
   font-family: "Dancing Script";
 }
-/* ABOUT CARD SLIDER  */
+/* ABOUT TESTIMONALS CARD SLIDERS  */
 .slide-container {
   width: 100%;
   background-color: rgb(243, 241, 241);
+}
+.slider-head{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
 .slide-content {
   margin: 0 40px;
@@ -272,11 +277,13 @@ body {
   border-radius: 50%;
  border: 5px solid var(--dark-blue);
 }
+.card-img:hover{
+  animation: pulse 1s;
+}
 .name {
   font-size: 30px;
   font-weight: bold;
   font-family: dancing script;
-
   color: var(--dark-blue);
 }
 .description {
@@ -291,7 +298,6 @@ body {
   border: none;
   font-size: 18px;
   font-weight: bold;
-  /* color: #fff; */
   color: var(--dark-blue);
   padding: 8px 16px;
   border-radius: 6px;
