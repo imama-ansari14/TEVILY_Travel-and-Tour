@@ -40,25 +40,39 @@ body {
 .hero-text h1 {
   font-family: "Dancing Script";
 }
+/* .................. MEDIA QUERY */
+@media (max-width: 425px) {
+  .hero-text {
+    top: 50% !important;
+    transform: translateY(-50%);
+  }
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
 /* HERO SECTION CARD */
 .hero-card {
   left: 15%;
 }
-
 .h-cardtwo {
   background-color: var(--maintheme);
   color: white;
   overflow: hidden;
-  transition: 0.7s;
-  z-index: 1;
+}
+.h-cardtwo .btn{
+  background-color: var(--maintheme);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  transition: 0.7s;
+  z-index: 1;
 }
-.h-cardtwo:hover {
+.h-cardtwo .btn:hover {
   color: white;
   background-color: black;
 }
-
 /* DESTINATION PLACES */
 .des-head {
   font-family: "Dancing Script";
@@ -360,6 +374,8 @@ color:var(--dark-blue)!important ;
 .team-title {
   font-size: 30px;
   font-weight: bold;
+  color: var(--dark-blue);
+  text-decoration: underline 5px var(--maintheme);
 }
 .team-section h2{
   color: var(--dark-blue);
@@ -417,7 +433,6 @@ color:var(--dark-blue)!important ;
 }
 /* CONTACT HERO SECTION */
 .con-section {
-  /* background-color: #f8f9fa; */
   padding: 50px 0;
 }
 .con-left-sec h3 {
