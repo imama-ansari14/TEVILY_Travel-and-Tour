@@ -18,6 +18,46 @@
 </head>
 
 <body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white position-sticky top-0 border border-secondary z-3">
+  <div class="container ">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <img src="../images/brand-logo.png" alt="Logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-around fs-4" id="navbarNav">
+      <ul class="navbar-nav fw-semibold gap-lg-5 gap-md-3 text-center">
+        <li class="nav-links nav-item">
+          <a class="navs nav-link active" href="../index.html">Home</a>
+        </li>
+        <li class="nav-links nav-item ">
+          <a class="navs nav-link active" href="../destination.html">Destinations</a>
+        </li>
+        <li class="nav-links nav-item">
+          <a class="navs nav-link active" href="../about/about.html">About</a>
+        </li>
+        <li class="nav-links nav-item">
+          <a class="navs nav-link active" href="../contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <div class="d-lg-flex text-center mt-3">
+        <a href="../destination.html"><button class="nav-btn btn btn-light rounded-circle me-2 ">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button></a>
+
+        <a href="../contact.html">
+          <button class="nav-btn btn btn-light rounded-circle">
+            <i class="fa-regular fa-user"></i>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
   <!-- Banner Section -->
   <section class="ab-banner">
     <h1 class="display-1">About</h1>
@@ -27,7 +67,7 @@
   <div class="container breadcrumb-container">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb mb-0">
-        <li class="breadcrumb-item fw-bold"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item fw-bold"><a href="../index.html">Home</a></li>
         <li class="breadcrumb-item fw-bold">Pages</li>
         <li class="breadcrumb-item active fw-bold " aria-current="page"><a href="about.html"
             class="text-danger">About</a></li>
@@ -232,6 +272,48 @@
       </div>
     </div>
   </section>
+ <!-- FOOTER -->
+ <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="f col-md-3">
+        <img src="../images/footer-logo.png" alt="logo">
+        <p>Welcome to our Trip and Tour Agency.</p>
+        <p>Lorem simply text amet cing elit.</p>
+        <p> <span class="icon"><i class="bi bi-telephone-fill"></i> </span>+92 666 999 0000</p>
+        <p><span class="icon"><i class="bi bi-envelope-fill"></i></span> needhelp@company.com</p>
+        <p><span class="icon"><i class="bi bi-geo-alt-fill"></i></span> 666 road, brooklyn street new york</p>
+      </div>
+      <div class="col-md-3">
+        <h5 class="text-white">Company</h5>
+        <p><a href="../about.html">About Us</a></p>
+        <p><a href="../about/about.html">Community Blog</a></p>
+        <p><a href="../destination.html">Rewards</a></p>
+        <p><a href="../contact.html">Work with Us</a></p>
+        <p><a href="../about/about.html">Meet the Team</a></p>
+      </div>
+      <div class="col-md-3">
+        <h5 class="text-white">Explore</h5>
+        <p><a href="../contact.html">Account</a></p>
+        <p><a href="../about/about.html">Reviews</a></p>
+        <p><a href="../contact.html">Contact</a></p>
+        <p><a href="../destination.html">Destinations</a></p>
+        <p><a href="../contact.html">Privacy Policy</a></p>
+      </div>
+      <div class="col-md-3">
+        <h5 class="text-white">Newsletter</h5>
+        <div class="subscribe-box">
+          <input type="email" class="form-control" placeholder="Email Address">
+        </div>
+        <button class="subscribe-btn mt-3">SUBSCRIBE</button>
+        <div class="mt-2">
+          <input type="checkbox" id="terms">
+          <label for="terms" class="text-white">I agree to all terms and policies</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
