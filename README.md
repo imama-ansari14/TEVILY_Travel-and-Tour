@@ -1,29 +1,57 @@
-# 🌍 TEVILY | Travel and Tour Website
+<h1 align="center">🌍 TEVILY - Travel & Tour Booking Website</h1>
 
-**TEVILY** is a responsive and travel-friendly e-commerce website designed to help users easily explore, book, and manage tours and trips. Whether you're planning a relaxing vacation or an adventure-packed tour, TEVILY offers a simple and attractive interface to get started.
+<p align="center">
+  <img src="images/footer-logo.png" alt="TEVILY Logo" width="120"/>
+</p>
 
-## ✨ Live Demo
+<p align="center">
+  A modern, responsive travel and tour booking website built with HTML, CSS, and Bootstrap.  
+  <br>
+  <a href="https://tevily.netlify.app" ><strong >🌐 Live Demo →</strong></a>
+</p>
 
-🔗 [Visit Website](https://tevily.netlify.app/)
+---
 
-## 🛠️ Technologies Used
+## 📸 Preview
 
-- HTML5  
-- CSS3  
-- Bootstrap  
+<p align="center">
+  <img src="images/hero1.jpg" alt="TEVILY Website Preview" />
+</p>
 
-## 📌 Features
+---
 
-- Fully responsive layout  
-- Beautiful travel tour packages  
-- Booking section for trips  
-- Clean and modern UI  
-- Easy navigation  
+## 🚀 Features
 
-## 🚀 How to Use
+- 🧭 Explore tour packages
+- 🧳 Easy trip booking
+- 📱 Fully responsive
+- ✈️ Travel-themed UI
+- 🎯 Clean and modern design
 
-Just open the live demo or clone the repository and open `index.html` in your browser:
+---
 
-```bash
-git clone https://github.com/imama-ansari14/TEVILY_Travel-and-Tour.git
-cd TEVILY_Travel-and-Tour
+## 💻 Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
+</p>
+
+
+
+---
+
+## 🙋‍♀️ About Me
+
+**Imama Ansari**  
+🌐 [GitHub](https://github.com/imama-ansari14)  
+🔗 [LinkedIn](https://www.linkedin.com/in/imama-ansari-5a604b337)
+
+---
+
+## ⭐ Show Your Support
+
+If you liked this project, leave a ⭐ on the repo and share your feedback!
+
+
